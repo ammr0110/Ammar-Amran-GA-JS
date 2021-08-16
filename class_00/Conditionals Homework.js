@@ -126,10 +126,14 @@ if (strokes == 1) {
 // Log "Fine. Be that way!"
 // Otherwise:
 // Log "Whatever."
-let userMsg = "How are you?";
+let userMsg = prompt("How are you?");
 
-if (userMsg == "?") {
+if (userMsg.endsWith("?")) {
     console.log("Sure.");
+} else if (userMsg == userMsg.toUpperCase() === true) {
+    console.log("Woah, chill out!");
+} else if (userMsg === "") {
+    console.log("Fine. Be that way!");
 } else {
     console.log("Whatever.");
 }
