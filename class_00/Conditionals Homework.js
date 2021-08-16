@@ -48,9 +48,9 @@ if (testScore <= 100 && testScore >= 80) {
 // Log "Fix the A/C now! It's hot!"
 // If the airconditioner is non-functional and the current temperature is below the the desired temperature
 // Log "Fix the A/C whenever you have the chance... It's cool..."
-let currTemp = "",
+let currTemp = prompt("What's the current temperature?"),
     AC = true,
-    desiredTemp = "";
+    desiredTemp = prompt("How many Celsius you want it to be?");
 
 if (AC === true && currTemp > desiredTemp) {
     console.log("Turn on the A/C Please");
