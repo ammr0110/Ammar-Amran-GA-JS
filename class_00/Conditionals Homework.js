@@ -130,9 +130,9 @@ let userMsg = prompt("How are you?");
 
 if (userMsg.endsWith("?")) {
     console.log("Sure.");
-} else if (userMsg == userMsg.toUpperCase() === true) {
+} else if (userMsg == userMsg.toUpperCase() && userMsg != "" || userMsg != " ") {
     console.log("Woah, chill out!");
-} else if (userMsg === "") {
+} else if (userMsg === "" || userMsg === " ") {
     console.log("Fine. Be that way!");
 } else {
     console.log("Whatever.");
