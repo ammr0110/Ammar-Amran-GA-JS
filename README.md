@@ -9,7 +9,7 @@
 
 :heavy_check_mark: [Primitive Data Type Homework](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Primitive%20Data%20Type%20Homework.js)
 
-- [Conditionals Homework](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Conditionals%20Homework.js): The Pluralizer & The Rest
+- [Conditionals Homework](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Conditionals%20Homework.js): The Rest
 
 - [Loops Homework](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Loops%20Homework.js): The Grade Assigner, Golf & 99 Bottles of Beer
 
