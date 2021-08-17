@@ -9,7 +9,6 @@ for (i = 0; i <= 20;  i++) {
     }
 }
 
-
 // Multiplication Tables
 // Write a for loop that will iterate from 1 to 12. For each iteration of the for loop, it will multiply the number by 9 and log the result (e.g. "2 * 9 = 18").
 
@@ -18,7 +17,6 @@ for (i = 1; i <= 12; i++) {
     let res = i * 9;
     console.log(`${i} * 9 = ${res}`)
 }
-
 
 // The Grade Assigner
 // Use the grade assigner code you wrote from the conditionals exercises for every value from 60 to 100 - so your log should show "For 89, you got a B. For 90, you got an A.", etc.
@@ -38,7 +36,6 @@ if (testScore <= 100 && testScore >= 80) {
     console.log("Please input only a number");
 }
 
-
 // Golf
 // Using the Golf condition you made before in the conditionals exercise, log out the nickname of every score from 1 to 8 on a par 5 hole
 
@@ -46,9 +43,19 @@ if (testScore <= 100 && testScore >= 80) {
 
 // Bonus: Generate a random par for each iteration
 
-
-
 // 99 Bottles of Beer
 // Write a script that prints the lyrics to "99 Bottles of Beer on the Wall" in the terminal. If you're unfamiliar with the song, you can find the lyrics here.
 
 // Make sure your program can handle both singular and plural cases (i.e. both "100 bottles of beer" and "1 bottle of beer").
+for (let numberOfBottle = 99; numberOfBottle >= 0; numberOfBottle--) {
+  if (numberOfBottle == 0) {
+    console.log(`No more bottles of beer on the wall, no more bottles of beer.`);
+    console.log(`Go to the store and buy some more, 99 bottles of beer on the wall.`);
+  } else if (numberOfBottle == 1) {
+    console.log(`1 bottle of beer on the wall, 1 bottle of beer.`);
+    console.log(`Take one down and pass it around, no more bottles of beer on the wall.`);
+  } else {
+    console.log(`${numberOfBottle} bottles of beer on the wall, ${numberOfBottle} bottles of beer.`);
+    console.log(`Take one down and pass it around, ${numberOfBottle - 1} bottles of beer on the wall.`);
+  }
+}
