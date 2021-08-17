@@ -1,8 +1,6 @@
 # General-Assembly-JavaScript-Development-Bootcamp
 
-class_00/
-[Primitive Data Type In-Class Exercises](class_00/Primitive Data Type In-Class Exercises.js)
-: COMPLETED
+class_00/[I'm an inline-style link](https://www.google.com): COMPLETED
 
 class_00/Conditionals In-Class Exercises: COMPLETED
 
