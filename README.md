@@ -1,6 +1,6 @@
 # General-Assembly-JavaScript-Development-Bootcamp
 
-## class_00
+## [class_00](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00)
 - [Primitive Data Type In-Class Exercises](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Primitive%20Data%20Type%20In-Class%20Exercises.js): COMPLETED
 
 - [Conditionals In-Class Exercises](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Conditionals%20In-Class%20Exercises.js): COMPLETED
