@@ -21,9 +21,9 @@
 - [Functions](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_01/Functions.js): Haven't start yet
 
 ## [class_02](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_02)
-- [The DOM Detective](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_02/The%20DOM%20Detective.js): COMPLETED
+:heavy_check_mark: [The DOM Detective](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_02/The%20DOM%20Detective.js)
 
-- [Working with the CSSOM](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_02/Working%20with%20the%20CSSOM.js): COMPLETED
+:heavy_check_mark: [Working with the CSSOM](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_02/Working%20with%20the%20CSSOM.js)
 
 - [More DOM Manipulation](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_02/More%20DOM%20Manipulation.md): [About Me](https://ammr0110.github.io/General-Assembly-JavaScript-Development-Bootcamp/class_02/aboutme.html) & The Book List
 
