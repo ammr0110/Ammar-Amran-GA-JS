@@ -163,6 +163,8 @@ if (
   } else {
     console.log(noun.replace(/fe$/, "ves"));
   }
+} else if (noun.endsWith("ouse")) {
+   console.log(noun.replace(/ouse$/, "ice")); 
 } else {
   console.log(`${noun}s`);
 }
