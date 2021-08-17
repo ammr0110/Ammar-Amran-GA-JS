@@ -14,8 +14,10 @@ for (i = 0; i <= 20;  i++) {
 
 // Bonus: Use a nested for loop to show the tables for every multiplier from 1 to 12.
 for (i = 1; i <= 12; i++) {
-    let res = i * 9;
-    console.log(`${i} * 9 = ${res}`)
+  for (j = 1; j <= 12; j++) {
+    let res = i * j;
+    console.log(`${j} * ${i} = ${res}`);
+  }
 }
 
 // The Grade Assigner
