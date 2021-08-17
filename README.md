@@ -25,6 +25,6 @@
 
 :heavy_check_mark: [Working with the CSSOM](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_02/Working%20with%20the%20CSSOM.js)
 
-- [More DOM Manipulation](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_02/More%20DOM%20Manipulation.md): [About Me](https://ammr0110.github.io/Ammar-Amran-GA-JS/class_02/aboutme.html) & The Book List
+- [More DOM Manipulation](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/720b94385a79efef966022d0175eecab67cc582e/class_02/More%20DOM%20Manipulation.md): [About Me](https://ammr0110.github.io/Ammar-Amran-GA-JS/class_02/aboutme.html) & The Book List
 
 ## class_03
