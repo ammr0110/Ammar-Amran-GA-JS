@@ -19,7 +19,6 @@ if (lang === "English") {
     console.log("Perhaps your language is not available at a moment")
 }
 
-
 // The Grade Assigner
 // Store a testScore in a variable. Give the user a score (either "A", "B", "C", "D", or "F") based on those test results.
 let testScore = prompt("Enter your test score");
@@ -37,7 +36,6 @@ if (testScore <= 100 && testScore >= 80) {
 } else {
     console.log("Please input only a number");
 }
-
 
 // Air Conditioning
 // Store the current temperature, whether the A/C is functional, and what the desired temperature is.
@@ -62,7 +60,6 @@ if (AC === true && currTemp > desiredTemp) {
     console.log("We can relax now");
 }
 
-
 // You and Your Government
 // Write a program that stores a user age and logs a message based on that age.
 
@@ -82,7 +79,6 @@ if (userAge >= 35) {
 } else {
     console.log("You can't vote yet");
 }
-
 
 // Golf
 // Write an if statement that gives a user the nickname of their score, based on par and logs the score's nickname.
@@ -114,7 +110,6 @@ if (strokes == 1) {
     console.log("Not sure");
 }
 
-
 // Serge Says
 // Store a user's message.
 
@@ -138,11 +133,39 @@ if (userMsg.endsWith("?")) {
     console.log("Whatever.");
 }
 
-
 // The Pluralizer
 // Write an if statement that works with a noun and a number. Make the noun plural if necessary!! Make this as accurate as possible (using the rules described here)
+let noun = prompt("Please input a noun");
 
-
+if (
+  noun.endsWith("s") ||
+  noun.endsWith("x") ||
+  noun.endsWith("z") ||
+  noun.endsWith("ch") ||
+  noun.endsWith("sh")
+) {
+  console.log(`${noun}es`);
+} else if (
+  noun.endsWith("ay") ||
+  noun.endsWith("ey") ||
+  noun.endsWith("iy") ||
+  noun.endsWith("oy") ||
+  noun.endsWith("uy")
+) {
+  console.log(`${noun}s`);
+} else if (noun.endsWith("y")) {
+  console.log(noun.replace(/y$/, "ies"));
+} else if (noun.endsWith("o")) {
+  console.log(`${noun}es`);
+} else if (noun.endsWith("f") || noun.endsWith("fe")) {
+  if (noun.endsWith("f")) {
+    console.log(noun.replace(/f$/, "ves"));
+  } else {
+    console.log(noun.replace(/fe$/, "ves"));
+  }
+} else {
+  console.log(`${noun}s`);
+}
 
 // The Rest
 // Implement a Rock, Paper, Scissors single game
