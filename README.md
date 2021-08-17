@@ -11,7 +11,7 @@
 
 - [Conditionals Homework](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Conditionals%20Homework.js): The Rest
 
-- [Loops Homework](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Loops%20Homework.js): The Grade Assigner & Golf
+- [Loops Homework](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/601acbd0802fa5d1d26dbc88d92693e12f4a6830/class_00/Loops%20Homework.js): The Grade Assigner & Golf
 
 ## class_01
 - [Arrays](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_01/Arrays.js): Print "third" using dynamic index & Your top choices
