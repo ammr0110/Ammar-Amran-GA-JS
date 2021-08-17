@@ -1,13 +1,13 @@
 # General-Assembly-JavaScript-Development-Bootcamp
 
 ## [class_00](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00)
-:heavy_check_mark: [Primitive Data Type In-Class Exercises](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Primitive%20Data%20Type%20In-Class%20Exercises.js): :heavy_check_mark:
+:heavy_check_mark: [Primitive Data Type In-Class Exercises](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Primitive%20Data%20Type%20In-Class%20Exercises.js)
 
-- [Conditionals In-Class Exercises](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Conditionals%20In-Class%20Exercises.js): COMPLETED
+:heavy_check_mark: [Conditionals In-Class Exercises](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Conditionals%20In-Class%20Exercises.js)
 
-- [Loops In-Class Exercises](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Loops%20In-Class%20Exercises.js): COMPLETED
+:heavy_check_mark: [Loops In-Class Exercises](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Loops%20In-Class%20Exercises.js)
 
-- [Primitive Data Type Homework](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Primitive%20Data%20Type%20Homework.js): COMPLETED
+:heavy_check_mark: [Primitive Data Type Homework](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Primitive%20Data%20Type%20Homework.js)
 
 - [Conditionals Homework](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Conditionals%20Homework.js): The Pluralizer & The Rest
 
