@@ -25,3 +25,4 @@ class_02/Working with the CSSOM: COMPLETED
 class_02/More DOM Manipulation: The Book List
 
 class_03/
+[I'm an inline-style link](https://www.google.com)
