@@ -27,13 +27,34 @@ console.log(rainbowColors.indexOf("blue"));
 
 // Bonus: Find out the difference between .slice and .splice
 // Create an array called twoColors using one method - don't change the rainbowColors array! Essentially pull two colors out of the array (say, between the index of 1 and 3)
+let twoColors = rainbowColors.slice(1, 3);
+console.log(twoColors);
+
 // Starting with this array const nums = [0, 1, 2, 2, 2, 3, 3, 4, 5];, remove the duplicates destructively using slice or splice (whichever one is appropriate)
 // Bonus: Work with arrays of arrays
+const nums = [0, 1, 2, 2, 2, 3, 3, 4, 5];
+nums.splice(2, 2);
+console.log(nums);
+
+nums.splice(3, 1);
+console.log(nums);
+
 // Starting with this array const arrOfArrs = [["inner array first item", "inner array second item"], ["first", "second", "third"]];
+const arrOfArrs = [
+  ["inner array first item", "inner array second item"],
+  ["first", "second", "third"],
+];
+
 // Access "inner array first item" and print it out
+arrOfArrs[0][0];
+
 // Print "third" by using a dynamic index
 // Bonus: Loop through the second inner array! Print out the first item, the second item, then the third item
-
+for (let i = 0; i < arrOfArrs.length; i++) {
+  for (let x = 0; x < arrOfArrs[i].length; x++) {
+    console.log(arrOfArrs);
+  }
+}
 
 // Your top choices
 // Create an array to hold your top five choices of something (dogs, books, presidents, whatever you want).
