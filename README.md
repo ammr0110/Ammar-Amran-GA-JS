@@ -1,12 +1,12 @@
 # General-Assembly-JavaScript-Development-Bootcamp
 
-class_00/[Primitive Data Types In-Class Exercises](https://www.google.com): COMPLETED
+class_00/[Primitive Data Types In-Class Exercises](https://github.com/ammr0110/General-Assembly-JavaScript-Development-Bootcamp/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Primitive%20Data%20Type%20In-Class%20Exercises.js): COMPLETED
 
 class_00/Conditionals In-Class Exercises: COMPLETED
 
 class_00/Loops In-Class Exercises: COMPLETED
 
-class_00/Primitive Data Homework: COMPLETED
+class_00/Primitive Data Type Homework: COMPLETED
 
 class_00/Conditionals Homework: The Pluralizer & The Rest
 
