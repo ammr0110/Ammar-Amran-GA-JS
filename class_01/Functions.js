@@ -73,6 +73,13 @@ calculateAge(2005);
 
 // The Lifetime Supply Calculator
 // Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
+
+// Write a function named calculateSupply that:
+// Takes 2 arguments: age, and amountPerDay.
+// Calculates the amount consumed for rest of the life (based on a constant max age).
+// Outputs the result to the screen like so: "You will need NN to last you until the ripe old age of X"
+// Call that function three times, passing in different values each time.
+// Bonus: Accept floating point values for amountPerDay, and round the result to a round number.
 function calculateSupply(age, amountPerDay) {
   const maxAge = 79;
   let total = ((maxAge - age) * amountPerDay).toFixed(2);
@@ -85,25 +92,26 @@ calculateSupply(25, 14);
 calculateSupply(22, 8);
 calculateSupply(21, 10);
 
-// Write a function named calculateSupply that:
-
-// Takes 2 arguments: age, and amountPerDay.
-// Calculates the amount consumed for rest of the life (based on a constant max age).
-// Outputs the result to the screen like so: "You will need NN to last you until the ripe old age of X"
-// Call that function three times, passing in different values each time.
-// Bonus: Accept floating point values for amountPerDay, and round the result to a round number.
-
 // The Geometrizer
 // Create 2 functions that calculate properties of a circle, using the definitions here.
 
 // Create a function called calcCircumference:
-
 // Pass the radius to the function.
 // Calculate the circumference based on the radius, and output "The circumference is NN".
-// Create a function called calcArea:
+function calcCircumference(radius) {
+  let circumference = (2 * Math.PI * radius).toFixed(3);
+  console.log(`The circumference is ${circumference}`);
+}
+calcCircumference(prompt("Radius for Circumference of Circle"));
 
+// Create a function called calcArea:
 // Pass the radius to the function.
 // Calculate the area based on the radius, and output "The area is NN".
+function calcArea(radius) {
+  let area = (Math.PI * Math.pow(radius, 2)).toFixed(3);
+  console.log(`The area is ${area}`);
+}
+calcArea(prompt("Radius for Circumference of Circle"));
 
 // The Temperature Converter
 // It's hot out! Let's make a converter based on the steps here.
