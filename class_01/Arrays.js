@@ -51,8 +51,8 @@ arrOfArrs[0][0];
 // Print "third" by using a dynamic index
 // Bonus: Loop through the second inner array! Print out the first item, the second item, then the third item
 for (let i = 0; i < arrOfArrs.length; i++) {
-  for (let x = 0; x < arrOfArrs[i].length; x++) {
-    console.log(arrOfArrs);
+  for (let j = 0; j < arrOfArrs[i].length; j++) {
+    console.log(arrOfArrs[i][j]);
   }
 }
 
