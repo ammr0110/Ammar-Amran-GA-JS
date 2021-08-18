@@ -1,30 +1,91 @@
 # [Ammar Amran General Assembly JavaScript](https://github.com/ammr0110/Ammar-Amran-GA-JS)
 
 ## class_00
-:heavy_check_mark: [Primitive Data Type In-Class Exercises](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Primitive%20Data%20Type%20In-Class%20Exercises.js)
 
-:heavy_check_mark: [Conditionals In-Class Exercises](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Conditionals%20In-Class%20Exercises.js)
+:heavy_check_mark: [Primitive Data Type In-Class Exercises](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/b3d10b384648f4930d70dd6025c32a2d6d06f323/class_00/Primitive%20Data%20Type%20In-Class%20Exercises.js)
 
-:heavy_check_mark: [Loops In-Class Exercises](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Loops%20In-Class%20Exercises.js)
+-- Convert a string into a number
+-- Convert a number into a string
+-- Make a string uppercase
+-- Get the second character out of a string
+-- Use concatenation to combine two strings
+-- Get a number and square it
+-- Get the square root of a number
 
-:heavy_check_mark: [Primitive Data Type Homework](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Primitive%20Data%20Type%20Homework.js)
+:heavy_check_mark: [Conditionals In-Class Exercises](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/b3d10b384648f4930d70dd6025c32a2d6d06f323/class_00/Conditionals%20In-Class%20Exercises.js)
 
-- [Conditionals Homework](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_00/Conditionals%20Homework.js): The Rest
+-- What number's bigger?
+-- Driving Age
 
-- [Loops Homework](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/601acbd0802fa5d1d26dbc88d92693e12f4a6830/class_00/Loops%20Homework.js): The Grade Assigner & Golf
+:heavy_check_mark: [Loops In-Class Exercises](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/b3d10b384648f4930d70dd6025c32a2d6d06f323/class_00/Loops%20In-Class%20Exercises.js)
+
+-- Log every number from 0 to 10
+-- Log every number from 4 to -16
+-- Log every fourth number from 8 to 41
+-- The Classic Fizzbuzz Program
+
+:heavy_check_mark: [Primitive Data Type Homework](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/b3d10b384648f4930d70dd6025c32a2d6d06f323/class_00/Primitive%20Data%20Type%20Homework.js)
+
+-- The Age Calculator
+-- The Lifetime Supply Calculator
+-- The Geometrizer
+-- The Temperature Converter
+
+- [Conditionals Homework](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/b3d10b384648f4930d70dd6025c32a2d6d06f323/class_00/Conditionals%20Homework.js)
+
+-- The World Translator
+-- The Grade Assigner
+-- Air Conditioning
+-- You and Your Government
+-- Golf
+-- Serge Says
+-- The Pluralizer
+-- The Rest
+
+- [Loops Homework](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/b3d10b384648f4930d70dd6025c32a2d6d06f323/class_00/Loops%20Homework.js)
+
+-- The even/odd reporter
+-- Multiplication Tables
+-- The Grade Assigner
+-- Golf
+-- 99 Bottles of Beer
 
 ## class_01
-- [Arrays](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_01/Arrays.js): Print "third" using dynamic index & Your top choices
 
-:heavy_check_mark: [Objects](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_01/Objects.js)
+- [Arrays](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/b3d10b384648f4930d70dd6025c32a2d6d06f323/class_01/Arrays.js)
 
-- [Functions](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_01/Functions.js): Haven't start yet
+-- Working with Arrays
+
+:heavy_check_mark: [Objects](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/b3d10b384648f4930d70dd6025c32a2d6d06f323/class_01/Objects.js)
+
+-- The Reading List
+-- The Recipe Card
+-- The Movie Database
+
+- [Functions](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/b3d10b384648f4930d70dd6025c32a2d6d06f323/class_01/Functions.js)
+
+-- Driving Age
+-- The World Translator
+-- The Age Calculator
+-- The Lifetime Supply Calculator
+-- The Geometrizer
+-- The Temperature Converter
+-- Working with Users
+-- A Transit Application
 
 ## class_02
-:heavy_check_mark: [The DOM Detective](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_02/The%20DOM%20Detective.js)
 
-:heavy_check_mark: [Working with the CSSOM](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_02/Working%20with%20the%20CSSOM.js)
+:heavy_check_mark: [The DOM Detective](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/b3d10b384648f4930d70dd6025c32a2d6d06f323/class_02/The%20DOM%20Detective.js)
 
-- [More DOM Manipulation](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/720b94385a79efef966022d0175eecab67cc582e/class_02/More%20DOM%20Manipulation.md): [About Me](https://ammr0110.github.io/Ammar-Amran-GA-JS/class_02/aboutme.html) & The Book List
+-- The DOM Detective
+
+:heavy_check_mark: [Working with the CSSOM](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/b3d10b384648f4930d70dd6025c32a2d6d06f323/class_02/Working%20with%20the%20CSSOM.js)
+
+-- Working with the CSSOM
+
+- [More DOM Manipulation](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/b3d10b384648f4930d70dd6025c32a2d6d06f323/class_02/More%20DOM%20Manipulation.md)
+
+-- [About Me](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/b3d10b384648f4930d70dd6025c32a2d6d06f323/class_02/aboutme.html)
+-- The Book List
 
 ## class_03
