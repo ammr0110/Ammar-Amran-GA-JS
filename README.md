@@ -16,7 +16,7 @@
 ## class_01
 - [Arrays](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_01/Arrays.js): Print "third" using dynamic index & Your top choices
 
-- [Objects](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_01/Objects.js): The Reading List
+:heavy_check_mark: [Objects](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_01/Objects.js)
 
 - [Functions](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/878bde40544c4da58bc9b5edf7bbf49569a03b21/class_01/Functions.js): Haven't start yet
 
