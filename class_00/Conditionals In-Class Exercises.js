@@ -34,7 +34,9 @@ let myName = prompt("Your name"),
     myAge = prompt("Your age"),
     remainYear = 16 - myAge;
 
-if (myAge < 16) {
+if (myAge == 15) {
+  console.log(`Sorry ${myName}, you still have a years before you can drive`);
+} else if (myAge < 16) {
     console.log(`Sorry ${myName}, you still have ${remainYear} years before you can drive`);
 } else {
     console.log("Drive into the sunset!");
