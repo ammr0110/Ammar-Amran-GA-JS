@@ -136,29 +136,32 @@ fahrenheitToCelsius(prompt("Convert Fahrenheit to Celsius"));
 
 // Working with Users
 // Starting with this data...
-
-// const users = [
-//   {
-//     email: "groucho@ga.co",
-//     password: "chicken",
-//     isAdmin: true
-//   },
-//   {
-//     email: "harpo@ga.co",
-//     password: "elephant",
-//     isAdmin: false
-//   },
-//   {
-//     email: "gummo@ga.co",
-//     password: "pinkFairyArmadillo",
-//     isAdmin: true
-//   },
-//   {
-//     email: "zeppo@ga.co",
-//     password: "dumboOctopus",
-//     isAdmin: false
-//   }
-// ];
+function userDetails() {
+  const users = [
+    {
+      email: "groucho@ga.co",
+      password: "chicken",
+      isAdmin: true,
+    },
+    {
+      email: "harpo@ga.co",
+      password: "elephant",
+      isAdmin: false,
+    },
+    {
+      email: "gummo@ga.co",
+      password: "pinkFairyArmadillo",
+      isAdmin: true,
+    },
+    {
+      email: "zeppo@ga.co",
+      password: "dumboOctopus",
+      isAdmin: false,
+    },
+  ];
+}
+let userInfo = userDetails();
+userInfo;
 // Create a function that receives an ID (index), an email and a password. If the function was provided with an email and a password that matches up, log "You are logged in". Otherwise, log "Sorry, something went wrong".
 
 // Bonus: Working with Users
@@ -175,8 +178,20 @@ fahrenheitToCelsius(prompt("Convert Fahrenheit to Celsius"));
 
 // A Transit Application
 // Start with this data...
-
-// const stations = ["Museum", "St. James", "Circular Quay", "Wynyard", "Townhall", "Central", "Redfern", "Macdonaldtown", "Newtown"];
+function travelFrom() {
+  const stations = [
+    "Museum",
+    "St. James",
+    "Circular Quay",
+    "Wynyard",
+    "Townhall",
+    "Central",
+    "Redfern",
+    "Macdonaldtown",
+    "Newtown",
+  ];
+}
+travelFrom();
 // Create a function called travelFrom that receives a start station and an end station.
 
 // Print the number of stops between the two stations. (e.g. log out "To go from 'Circular Quay' to 'Central' - you'll need to go through 2 stops")
