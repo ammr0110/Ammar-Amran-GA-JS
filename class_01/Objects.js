@@ -50,7 +50,14 @@ const recipe = {
     "6 ice cubes",
   ],
 };
-console.log(`${recipe.title}<br>Serves: ${recipe.numberOfServing}`);
+
+console.log(`${recipe.title}`);
+console.log(`Serves: ${recipe.numberOfServing}`);
+console.log("Ingredients:");
+
+for (let i = 0; i < recipe.ingredients.length; i++) {
+  console.log(recipe.ingredients[i]);
+}
 
 // The Movie Database
 // It's like IMDB, but much much smaller!
