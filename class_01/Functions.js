@@ -61,11 +61,19 @@ translator("en");
 function calculateAge() {
   let birthYear = "",
     currentYear = new Date().getFullYear();
+  
+  console.log(
+    `You are either ${currentYear - birthYear} or ${
+      currentYear - birthYear - 1
+    }.`
+  );
 }
 calculateAge();
 
 // The Lifetime Supply Calculator
 // Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
+function calculateSupply() {}
+calculateSupply();
 
 // Write a function named calculateSupply that:
 
