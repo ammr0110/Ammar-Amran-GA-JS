@@ -58,22 +58,32 @@ translator("en");
 // Outputs the result: "You are either NN or NN"
 // Call the function three times with different sets of values.
 // Bonus: Figure out how to get the current year in JavaScript instead of passing it in.
-function calculateAge() {
-  let birthYear = "",
-    currentYear = new Date().getFullYear();
-  
+function calculateAge(birthYear) {
+  let currentYear = new Date().getFullYear();
+
   console.log(
     `You are either ${currentYear - birthYear} or ${
       currentYear - birthYear - 1
     }.`
   );
 }
-calculateAge();
+calculateAge(1995);
+calculateAge(2000);
+calculateAge(2005);
 
 // The Lifetime Supply Calculator
 // Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
-function calculateSupply() {}
-calculateSupply();
+function calculateSupply(age, amountPerDay) {
+  const maxAge = 79;
+  let total = ((maxAge - age) * amountPerDay).toFixed(2);
+
+  console.log(
+    `You will need ${total} to last you until the ripe old age of ${maxAge}.`
+  );
+}
+calculateSupply(25, 14);
+calculateSupply(22, 8);
+calculateSupply(21, 10);
 
 // Write a function named calculateSupply that:
 
