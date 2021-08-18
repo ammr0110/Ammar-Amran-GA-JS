@@ -58,6 +58,11 @@ translator("en");
 // Outputs the result: "You are either NN or NN"
 // Call the function three times with different sets of values.
 // Bonus: Figure out how to get the current year in JavaScript instead of passing it in.
+function calculateAge() {
+  let birthYear = "",
+    currentYear = new Date().getFullYear();
+}
+calculateAge();
 
 // The Lifetime Supply Calculator
 // Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
