@@ -80,7 +80,7 @@
 ## [More DOM Manipulation](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/76161e2ba27c1d1845204f08c16712053d90cbf8/class_02/More%20DOM%20Manipulation.md)
 
 - [About Me](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/76161e2ba27c1d1845204f08c16712053d90cbf8/class_02/aboutme.html)
-- The Book List
+- [The Book List]
 
 ## [Interactive Glossary](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/76161e2ba27c1d1845204f08c16712053d90cbf8/class_03/glossaryData.js)
 
