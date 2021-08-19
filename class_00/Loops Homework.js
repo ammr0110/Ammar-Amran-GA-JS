@@ -1,12 +1,12 @@
 // Loops Homework
 // The even/odd reporter
 // Write a for loop that will iterate from 0 to 20. For each iteration, it will check if the current number is even or odd, and report that to the screen (e.g. "2 is even").
-for (i = 0; i <= 20;  i++) {
-    if (i % 2 === 0) {
-        console.log(`${i} is even number.`)
-    } else {
-        console.log(`${i} is odd number.`)
-    }
+for (i = 0; i <= 20; i++) {
+  if (i % 2 === 0) {
+    console.log(`${i} is even number.`);
+  } else {
+    console.log(`${i} is odd number.`);
+  }
 }
 
 // Multiplication Tables
@@ -25,17 +25,17 @@ for (i = 1; i <= 12; i++) {
 let testScore = prompt("Enter your test score");
 
 if (testScore <= 100 && testScore >= 80) {
-    console.log("You got an A");
+  console.log("You got an A");
 } else if (testScore < 80 && testScore >= 68) {
-    console.log("You got a B");
+  console.log("You got a B");
 } else if (testScore < 68 && testScore >= 56) {
-    console.log("You got a C");
+  console.log("You got a C");
 } else if (testScore < 56 && testScore >= 40) {
-    console.log("You got a D");
+  console.log("You got a D");
 } else if (testScore < 40 && testScore >= 0) {
-    console.log("You got a F");
+  console.log("You got a F");
 } else {
-    console.log("Please input only a number");
+  console.log("Please input only a number");
 }
 
 // Golf
@@ -51,13 +51,25 @@ if (testScore <= 100 && testScore >= 80) {
 // Make sure your program can handle both singular and plural cases (i.e. both "100 bottles of beer" and "1 bottle of beer").
 for (let numberOfBottle = 99; numberOfBottle >= 0; numberOfBottle--) {
   if (numberOfBottle == 0) {
-    console.log(`No more bottles of beer on the wall, no more bottles of beer.`);
-    console.log(`Go to the store and buy some more, 99 bottles of beer on the wall.`);
+    console.log(
+      `No more bottles of beer on the wall, no more bottles of beer.`
+    );
+    console.log(
+      `Go to the store and buy some more, 99 bottles of beer on the wall.`
+    );
   } else if (numberOfBottle == 1) {
     console.log(`1 bottle of beer on the wall, 1 bottle of beer.`);
-    console.log(`Take one down and pass it around, no more bottles of beer on the wall.`);
+    console.log(
+      `Take one down and pass it around, no more bottles of beer on the wall.`
+    );
   } else {
-    console.log(`${numberOfBottle} bottles of beer on the wall, ${numberOfBottle} bottles of beer.`);
-    console.log(`Take one down and pass it around, ${numberOfBottle - 1} bottles of beer on the wall.`);
+    console.log(
+      `${numberOfBottle} bottles of beer on the wall, ${numberOfBottle} bottles of beer.`
+    );
+    console.log(
+      `Take one down and pass it around, ${
+        numberOfBottle - 1
+      } bottles of beer on the wall.`
+    );
   }
 }
