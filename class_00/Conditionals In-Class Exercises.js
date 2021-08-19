@@ -2,8 +2,8 @@
 // What number's bigger?
 
 // Write an if statement that compares two numbers (call them numOne and numTwo).
-let numOne = 25;
-numTwo = 26;
+let numOne = 25,
+    numTwo = 26;
 
 // If numOne is bigger, it should log to the console "numOne (THE VALUE) is bigger than numTwo (THE VALUE)".
 if (numOne > numTwo) {
@@ -30,8 +30,8 @@ else {
 // Bonus: If the user can't drive yet, tell them how many years they have before they can drive (e.g. "Sorry, you still have 4 years before you can drive")
 
 let myName = prompt("Your name"),
-  myAge = prompt("Your age"),
-  remainYear = 16 - myAge;
+    myAge = prompt("Your age"),
+    remainYear = 16 - myAge;
 
 if (myAge == 15) {
   console.log(`Sorry ${myName}, you still have a years before you can drive`);
