@@ -1,6 +1,6 @@
 # [Ammar Amran General Assembly JavaScript](https://github.com/ammr0110/Ammar-Amran-GA-JS)
 
-## [Primitive Data Type In-Class Exercises](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/b3d10b384648f4930d70dd6025c32a2d6d06f323/class_00/Primitive%20Data%20Type%20In-Class%20Exercises.js)
+## [Primitive Data Type In-Class Exercises](class_00/Primitive Data Type In-Class Exercises.js)
 
 - Convert a string into a number
 - Convert a number into a string
