@@ -82,6 +82,6 @@
 - [About Me](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/b3d10b384648f4930d70dd6025c32a2d6d06f323/class_02/aboutme.html)
 - The Book List
 
-## [Interactive Glossary](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/b3d10b384648f4930d70dd6025c32a2d6d06f323/class_02/glossaryData.js)
+## [Interactive Glossary](https://github.com/ammr0110/Ammar-Amran-GA-JS/blob/b3d10b384648f4930d70dd6025c32a2d6d06f323/class_03/glossaryData.js)
 
 - Glossary Data
