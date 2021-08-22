@@ -75,7 +75,7 @@
 
 - [Working with the CSSOM](The%20DOM%20Detective\Working%20with%20the%20CSSOM.js)
 
-## [More DOM Manipulation](The%20DOM%20Detective\More%20DOM%20Manipulation.md)
+## More DOM Manipulation
 
 - [About Me](The%20DOM%20Detective\About%20Me\aboutme.html)
 - [The Book List](The%20DOM%20Detective\My%20Book%20List\myBookList.html)
