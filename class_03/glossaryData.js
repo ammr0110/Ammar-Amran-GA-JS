@@ -908,3 +908,22 @@ let glossary = [
     tags: ["JavaScript", "Programming", "Functional"],
   },
 ];
+
+glossary.forEach(function (glossaryInfo) {
+  let glossaryTerm = glossaryInfo.term;
+  let glossaryClass = glossaryInfo.class;
+  let glossaryDefinition = glossaryInfo.definition;
+  let glossaryTags = glossaryInfo.tags;
+
+  let glossaryData = document.querySelector(".glossary-data");
+  let glossaryRow = document.createElement("tr");
+
+  glossaryRow.innerHTML = `
+  <td>${glossaryTerm}</td>
+  <td>${glossaryClass}</td>
+  <td>${glossaryDefinition}</td>
+  <td>${glossaryTags}</td>
+  `;
+
+  glossaryData.appendChild(glossaryRow);
+});
