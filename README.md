@@ -48,37 +48,37 @@
 
 ## Arrays
 
-- [Working with Arrays](Array/Arrays.js)
+- [Working with Arrays](Arrays/Arrays.js)
 
 ## Objects
 
-- The Reading List
-- The Recipe Card
-- The Movie Database
+- [The Reading List](Objects\The%20Reading%20List.js)
+- [The Recipe Card](Objects\The%20Recipe%20Card.js)
+- [The Movie Database](Objects\The%20Movie%20Database.js)
 
-## [Functions](class_01/Functions.js)
+## Functions
 
-- Driving Age
-- The World Translator
-- The Age Calculator
-- The Lifetime Supply Calculator
-- The Geometrizer
-- The Temperature Converter
-- Working with Users
-- A Transit Application
+- [Driving Age](Functions\Driving%20Age.js)
+- [The World Translator](Functions\The%20World%20Translator.js)
+- [The Age Calculator](Functions\The%20Age%20Calculator.js)
+- [The Lifetime Supply Calculator](Functions\The%20Lifetime%20Supply%20Calculator.js)
+- [The Geometrizer](Functions\The%20Geometrizer.js)
+- [The Temperature Converter](Functions\The%20Temperature%20Converter.js)
+- [Working with Users](Functions\Working%20with%20Users.js)
+- [A Transit Application](Functions\A%20Transit%20Application.js)
 
 ## The DOM Detective
 
-- [The DOM Detective](class_02/The%20DOM%20Detective.js)
+- [The DOM Detective](The%20DOM%20Detective\The%20DOM%20Detective.js)
 
 ## Working with the CSSOM
 
-- [Working with the CSSOM](class_02/Working%20with%20the%20CSSOM.js)
+- [Working with the CSSOM](The%20DOM%20Detective\Working%20with%20the%20CSSOM.js)
 
-## [More DOM Manipulation](class_02/More%20DOM%20Manipulation.md)
+## [More DOM Manipulation](The%20DOM%20Detective\More%20DOM%20Manipulation.md)
 
-- [About Me](class_02/aboutme.html)
-- [The Book List](class_02/myBookList.html)
+- [About Me](The%20DOM%20Detective\About%20Me\aboutme.html)
+- [The Book List](The%20DOM%20Detective\My%20Book%20List\myBookList.html)
 
 ## Interactive Glossary
 
