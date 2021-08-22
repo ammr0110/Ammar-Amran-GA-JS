@@ -136,7 +136,7 @@ fahrenheitToCelsius(prompt("Convert Fahrenheit to Celsius"));
 
 // Working with Users
 // Starting with this data...
-function userDetails() {
+function userDetails(email, password) {
   const users = [
     {
       email: "groucho@ga.co",
@@ -159,9 +159,13 @@ function userDetails() {
       isAdmin: false,
     },
   ];
+  users.forEach(function (user) {
+    let email = user.email,
+      password = user.password,
+      admin = user.isAdmin;
+    console.log(email, password, admin);
+  });
 }
-let userInfo = userDetails();
-userInfo;
 // Create a function that receives an ID (index), an email and a password. If the function was provided with an email and a password that matches up, log "You are logged in". Otherwise, log "Sorry, something went wrong".
 
 // Bonus: Working with Users
