@@ -9,8 +9,8 @@
 // par + 1	    "Bogey"
 // par + 2	    "Double Bogey"
 // >= par + 3	"Not sure"
-let strokes = prompt("How many strokes"),
-  par = prompt("How many par");
+let strokes = prompt("How many strokes");
+let par = prompt("How many par");
 
 if (strokes == 1) {
   console.log("Hole in one");
