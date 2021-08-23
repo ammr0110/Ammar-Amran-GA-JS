@@ -24,10 +24,10 @@ function userDetails(email, password) {
     },
   ];
   users.forEach(function (user) {
-    let email = user.email,
-      password = user.password,
-      admin = user.isAdmin;
-    console.log(email, password, admin);
+    let email = user.email;
+    let password = user.password;
+    let isAdmin = user.isAdmin;
+    console.log(email);
   });
 }
 // Create a function that receives an ID (index), an email and a password. If the function was provided with an email and a password that matches up, log "You are logged in". Otherwise, log "Sorry, something went wrong".
