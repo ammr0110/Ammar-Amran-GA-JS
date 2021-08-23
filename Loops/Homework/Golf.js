@@ -5,20 +5,23 @@
 
 // Bonus: Generate a random par for each iteration
 let strokes = prompt("How many strokes");
-let par = prompt("How many par");
 
-if (strokes == 1) {
-  console.log("Hole in one");
-} else if (strokes <= par - 2) {
-  console.log("Eagle");
-} else if (strokes == par - 1) {
-  console.log("Birdie");
-} else if (strokes == par) {
-  console.log("Par");
-} else if (strokes == par + 1) {
-  console.log("Bogey");
-} else if (strokes == par + 2) {
-  console.log("Double Bogey");
-} else if (strokes >= par + 3) {
-  console.log("Not sure");
+for (let par = Math.floor(Math.random() * 3); par <= 5; par += 1) {
+  for (par = Math.floor(Math.random() * 5); par <= 5; par += 1) {
+    if (strokes == 1) {
+      console.log("Hole in one");
+    } else if (strokes <= par - 2) {
+      console.log("Eagle");
+    } else if (strokes == par - 1) {
+      console.log("Birdie");
+    } else if (strokes == par) {
+      console.log("Par");
+    } else if (strokes == par + 1) {
+      console.log("Bogey");
+    } else if (strokes == par + 2) {
+      console.log("Double Bogey");
+    } else if (strokes >= par + 3) {
+      console.log("Not sure");
+    }
+  }
 }
