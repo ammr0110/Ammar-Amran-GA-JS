@@ -61,3 +61,16 @@ for (let i = 0; i < arrOfArrs.length; i++) {
 
 // For each choice, log to the screen a string like: "My #1 choice is blue."
 // Bonus: Change it to log "My 1st choice", "My 2nd choice", "My 3rd choice", picking the right suffix for the number based on what it is.
+let topFive = ["black", "blue", "white", "green", "red"];
+
+for (let i = 0; i < topFive.length; i++) {
+  if ([i + 1] == 1) {
+    console.log(`My ${[i + 1]}st choice is ${topFive[i]}`);
+  } else if ([i + 1] == 2) {
+    console.log(`My ${[i + 1]}nd choice is ${topFive[i]}`);
+  } else if ([i + 1] == 3) {
+    console.log(`My ${[i + 1]}rd choice is ${topFive[i]}`);
+  } else {
+    console.log(`My ${[i + 1]}th choice is ${topFive[i]}`);
+  }
+}
