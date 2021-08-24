@@ -915,19 +915,12 @@ glossary.forEach(function (glossaryInfo) {
   let glossaryDefinition = glossaryInfo.definition;
   let glossaryTags = glossaryInfo.tags;
 
-  function classToString(str) {
-    let glossaryClassToStr = str.toString();
-    return glossaryClassToStr;
-  }
-
-  let glossaryClassStr = glossaryClass.map(classToString);
-
   let glossaryData = document.querySelector(".glossary-data");
   let glossaryRow = document.createElement("tr");
 
   glossaryRow.innerHTML = `
   <td>${glossaryTerm}</td>
-  <td>${glossaryClassStr}</td>
+  <td>${glossaryClass}</td>
   <td>${glossaryDefinition}</td>
   <td>${glossaryTags}</td>
   `;
