@@ -1,35 +1,36 @@
 // Working with Users
 // Starting with this data...
-function userDetails(email, password) {
-  const users = [
-    {
-      email: "groucho@ga.co",
-      password: "chicken",
-      isAdmin: true,
-    },
-    {
-      email: "harpo@ga.co",
-      password: "elephant",
-      isAdmin: false,
-    },
-    {
-      email: "gummo@ga.co",
-      password: "pinkFairyArmadillo",
-      isAdmin: true,
-    },
-    {
-      email: "zeppo@ga.co",
-      password: "dumboOctopus",
-      isAdmin: false,
-    },
-  ];
-  users.forEach(function (user) {
-    let email = user.email;
-    let password = user.password;
-    let isAdmin = user.isAdmin;
-    console.log(email);
-  });
-}
+const users = [
+  {
+    email: "groucho@ga.co",
+    password: "chicken",
+    isAdmin: true,
+  },
+  {
+    email: "harpo@ga.co",
+    password: "elephant",
+    isAdmin: false,
+  },
+  {
+    email: "gummo@ga.co",
+    password: "pinkFairyArmadillo",
+    isAdmin: true,
+  },
+  {
+    email: "zeppo@ga.co",
+    password: "dumboOctopus",
+    isAdmin: false,
+  },
+];
+
+users.forEach(function (user) {
+  let email = user.email;
+  let password = user.password;
+  let isAdmin = user.isAdmin;
+
+  console.log(email, password, isAdmin);
+});
+
 // Create a function that receives an ID (index), an email and a password. If the function was provided with an email and a password that matches up, log "You are logged in". Otherwise, log "Sorry, something went wrong".
 
 // Bonus: Working with Users
