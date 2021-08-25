@@ -1,20 +1,25 @@
 // A Transit Application
 // Start with this data...
-function travelFrom() {
-  const stations = [
-    "Museum",
-    "St. James",
-    "Circular Quay",
-    "Wynyard",
-    "Townhall",
-    "Central",
-    "Redfern",
-    "Macdonaldtown",
-    "Newtown",
-  ];
-}
-travelFrom();
+const stations = [
+  "Museum",
+  "St. James",
+  "Circular Quay",
+  "Wynyard",
+  "Townhall",
+  "Central",
+  "Redfern",
+  "Macdonaldtown",
+  "Newtown",
+];
+
 // Create a function called travelFrom that receives a start station and an end station.
+function travelFrom() {
+  for (let i = 0; i < stations.length; i++) {
+    console.log(stations[i]);
+  }
+}
+
+travelFrom();
 
 // Print the number of stops between the two stations. (e.g. log out "To go from 'Circular Quay' to 'Central' - you'll need to go through 2 stops")
 // Print out the names of the stations on separate lines (e.g. log out "- Circular Quay", "- Wynyard", "- Townhall", "- Central")
