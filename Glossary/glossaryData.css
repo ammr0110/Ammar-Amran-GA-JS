@@ -22,6 +22,11 @@ body {
   width: 100%;
 }
 
+h1 {
+  padding: 0.5em;
+  text-align: center;
+}
+
 table,
 th,
 td {
@@ -39,5 +44,6 @@ td:nth-child(even) {
 }
 
 .glossaries {
+  padding: 0 1em 1em;
   position: relative;
 }
