@@ -920,7 +920,7 @@ glossary.forEach(function (glossaryInfo) {
 
   glossaryRow.innerHTML = `
   <td>${glossaryTerm}</td>
-  <td>${glossaryClass}</td>
+  <td>0${glossaryClass}</td>
   <td>${glossaryDefinition}</td>
   <td>${glossaryTags}</td>
   `;
