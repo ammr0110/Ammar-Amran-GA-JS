@@ -14,9 +14,9 @@ const stations = [
 
 // Create a function called travelFrom that receives a start station and an end station.
 function travelFrom() {
-  for (let i = 0; i < stations.length; i++) {
-    console.log(stations[i]);
-  }
+  let startStation = stations[0];
+  let endStation = stations.length - 1;
+  return `Start Station: ${startStation} & Last Station: ${stations[endStation]}`;
 }
 
 travelFrom();
