@@ -50,11 +50,14 @@ arrOfArrs[0][0];
 
 // Print "third" by using a dynamic index
 // Bonus: Loop through the second inner array! Print out the first item, the second item, then the third item
-for (let i = 0; i < arrOfArrs.length; i++) {
-  for (let j = 0; j < arrOfArrs[i].length; j++) {
-    console.log(arrOfArrs[i][j]);
-  }
-}
+arrOfArrs.forEach((innerArr) => {
+  innerArr.forEach((arrInArr) => {
+    if (arrInArr === "third") {
+      console.log(arrInArr);
+    }
+  });
+});
+
 
 // Your top choices
 // Create an array to hold your top five choices of something (dogs, books, presidents, whatever you want).
